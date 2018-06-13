@@ -21,13 +21,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIButton *button = [UIButton new].chianedFrame(CGRectMake(100, 0, 100, 100))
+    UIButton *button = [UIButton new].chianedFrame(CGRectMake(150, 100, 100, 100))
     .titleParams(@"威武", 14.f, [UIColor orangeColor],NSTextAlignmentCenter)
     .blackGroundColor([UIColor blueColor]);
     [self.view addSubview:button];
     
     
-    JKChainLabel *label = [JKChainLabel new].chianedFrame(CGRectMake(100, 100, 100, 100))
+    JKChainLabel *label = [JKChainLabel new].chianedFrame(CGRectMake(150, 200, 100, 100))
     .chianedBlackgroundColor([UIColor orangeColor])
     .chianedTextSet(@"雄壮", [UIColor blueColor],[UIFont systemFontOfSize:14.f],NSTextAlignmentCenter);
     [self.view addSubview:label];
